@@ -1,0 +1,150 @@
+body
+{
+    padding:0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.container img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right
+{
+    position: absolute;
+    padding: 2rem;
+    color: white;
+}
+
+.top-left
+{
+    top: 2rem;
+    left: 2rem;
+}
+
+.top-right
+{
+    top: 2rem;
+    left: 2rem;
+    display: block;
+}
+.top-right
+{
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.top-right input[type="text"]
+{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.top-right a
+{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+
+}
+
+.top-right a:hover
+{
+    color: #ff5c00;
+
+}
+
+.bottom-left{
+    bottom: 3rem;
+    left: 2rem;
+}
+
+.bottom-right{
+    bottom: 2rem;
+    right: 2rem;
+}
+.site-name
+{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 0.625rem;
+    font-size: 1.5rem;
+
+}
+
+.order-button
+{
+    display: inline-block;
+    background-color: #ff5c00;
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.875rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.order-button:hover{
+    background-color: #e65100;
+}
+
+.bottom-left h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+.bottom-left p{
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.bottom-right h2{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+}
+
+.bottom-right .phone-number
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3125rem;
+}
+.top-right a
+{
+    color:yellow;
+    font-style: italic;
+}
